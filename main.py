@@ -99,7 +99,7 @@ def home():
     s = final_weapon()
     color = "#00ff00" if s['direction']=="LONG" else "#ff0000" if s['direction']=="SHORT" else "#888"
     return render_template_string(f"""
-    <html><head><meta charset="utf-8"><title>Shahrad Final Weapon</title>
+    <html><head><meta charset="utf-8"><title>Shahrad Gold Signal 09330191696</title>
     <style>body{{background:#000;color:#0f0;text-align:center;padding:50px;font-family:Arial}}
     h1{{font-size:6em;color:{color}}}</style>
     <meta http-equiv="refresh" content="30"></head>
